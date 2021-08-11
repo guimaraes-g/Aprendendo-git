@@ -10,8 +10,6 @@ O Git é um sistema de controle de versões distribuído, gratuito e código abe
 
 # Pré-requisitos para usar o Git
 
----
-
 Formalmente, não existe nenhum pré-requisito para começar a usar essa ferramenta. Você pode baixar, aprender seus comandos e começar a utilizar. Mas durante meu estudo eu percebi que alguns conhecimentos prévios foram imprescindíveis para melhor compreender a ferramenta. O Git é todo baseado em linha de comando, ou seja, roda diretamente em um Terminal. Convém, portanto, aprender alguns comandos básicos para o terminal (seja do Prompt de Comando em Windows, ou seja do Terminal Unix). Se você usa o Windows, eu recomendo fortemente o download do terminal [Cmder](https://github.com/cmderdev/cmder/releases/download/v1.3.18/cmder.zip). Baixando sua versão mais completa, você poderá utilizar tanto os comandos de terminal Unix, como do Prompt de Comando. Aumentando seu leque de possibilidades de comando. 
 
 Os principais comandos a se aprender são:
