@@ -14,23 +14,23 @@ Formalmente, não existe nenhum pré-requisito para começar a usar essa ferrame
 
 Os principais comandos a se aprender são:
 
-**cd :** é a forma como você vai indicar para o terminal sua navegação pelas pastas *(diretórios)*
+**cd** : é a forma como você vai indicar para o terminal sua navegação pelas pastas *(diretórios)*
 
-**dir :** é como você vai perguntar ao terminal quais são os arquivos que existem no diretório
+**dir** : é como você vai perguntar ao terminal quais são os arquivos que existem no diretório
 
-**ls** : o mesmo que o comando **dir,** contudo, usado para Unix. O Git aceita ambos os comandos. O **ls** é mais completo, você pode combinar com ele o "-a" por exemplo e listar também arquivos e diretórios ocultos
+**ls** : o mesmo que o comando **dir**, contudo, usado para Unix. O Git aceita ambos os comandos. O **ls** é mais completo, você pode combinar com ele o "-a" por exemplo e listar também arquivos e diretórios ocultos
 
 **cd .. :** comando que indica que você quer voltar uma página
 
-**mkdir "**nome da pasta" **:** é como você vai pedir ao terminal que crie uma pasta onde você está
+**mkdir** "nome da pasta" : é como você vai pedir ao terminal que crie uma pasta onde você está
 
-**rmdir "**nome da pasta" : é como você vai pedir ao terminal para remover uma pasta vazia. Para excluir uma pasta que contém arquivos ou outros diretórios dentro, você precisa escrever após o **rmdir,** na mesma linha, o comando "/s"
+**rmdir** "nome da pasta" : é como você vai pedir ao terminal para remover uma pasta vazia. Para excluir uma pasta que contém arquivos ou outros diretórios dentro, você precisa escrever após o **rmdir,** na mesma linha, o comando "/s"
 
-**rm -r** : mesma função do **rmdir /s** — ****utilizada em terminais Unix
+**rm -r** : mesma função do **rmdir /s** — utilizada em terminais Unix
 
-**echo "**mensagem" : é como você pede ao terminal para exibir uma mensagem nele mesmo
+**echo** "mensagem" : é como você pede ao terminal para exibir uma mensagem nele mesmo
 
-**echo** **"**mensagem" *(opcional)* ">" *(ou ">>" caso o arquivo já existe e você deseja escrever em uma nova linha dentro dele)* "nome do arquivo.tipo" : criar um arquivo de tipo específico e gravar algo dentro dele
+**echo** "mensagem" *(opcional)* ">" *(ou ">>" caso o arquivo já existe e você deseja escrever em uma nova linha dentro dele)* "nome do arquivo.tipo" : criar um arquivo de tipo específico e gravar algo dentro dele
 
 **touch** "nome do arquivo" : criar aquivo. Também é possível especificar o tipo
 
@@ -62,7 +62,7 @@ Agora é a hora da verdade, estale seus dedos, ajeite sua postura e clique para 
 
 **git --version** : ele indicará se o Git foi instalado corretamente na sua máquina, devolvendo no terminal a versão do Git instalado
 
-**git config --global user.name "**seu nome" : se o Git ainda não lhe forçou a dizer seu nome, esse é o seu jeito educado de informar para o sistema do Git quem está utilizado a máquina
+**git config --global user.name** "seu nome" : se o Git ainda não lhe forçou a dizer seu nome, esse é o seu jeito educado de informar para o sistema do Git quem está utilizado a máquina
 
 **git config --global user.email** "email" : agora é a hora de indicar seu e-mail. Esses dados serão necessários para que quando você for salvar a versão de um código ele carimbe quem foi que fez as alterações
 
@@ -92,9 +92,9 @@ Vamos primeiramente explorar como criar um diretório próprio em nosso computad
 
 Ao finalizar esse comando, retorne ao seu diretório principal. Nele, execute o código:
 
-**git remote** : com esse comando, você perguntará ao Git quais são os repositórios remotos
+**git remote** : com esse comando, você perguntará ao Git quais são os repositórios remotos que você tem no repositório que está
 
-criar o repositóro. Como você ainda não adicionou nenhum, ele não retornará nada, tampouco dar nenhuma mensagem de erro. 
+Como você ainda não adicionou nenhum, ele não retornará nada, tampouco dar nenhuma mensagem de erro. 
 
 Agora, execute o código para fazer com que o seu repositório do projeto passe a reconhecer um repositório remoto:
 
@@ -122,7 +122,7 @@ Mas não se preocupe com isso até aqui. Até este momento, estamos trabalhando 
 
 Esse é o tópico mais simples desse tutorial. Até aqui, você já aprendeu muito sobre o Git, mas tem algo importante. Criar repositórios remotos no seu próprio computador não tem graça, certo? Afinal, você provavelmente vai trabalhar em equipe querendo que cada um dê sua contribuiçã através do seu próprio computador. Para isso existe o Github! Isso e muito mais, é verdade. Mas para este tutorial, apenas mostraremos esse pouco. 
 
-Acesse o site [github.com](http://github.com); caso você ainda não tenha login, cadastrar-se. No canto superior à direita você enxergará um simbolo de "+", clicando nele, algumas opções surgirão. Clique em New repository, ele lhe encaminhará para uma página em que você definirá nome e outras opções. É bem intuitivo. Após criar, aparecerá na página um pequeno tutorial explicando como sincronizar seu repositório local com este hospedado no Github. Basta segui-lo. Apenas adianto que as poucas diferenças estão no comando **git remote add.** Com o incremento das Branchs, fica um pouco mais complexo. Mas isso é papo para outro tutorial. 
+Acesse o site [github](http://github.com); caso você ainda não tenha login, cadastrar-se. No canto superior à direita você enxergará um simbolo de "+", clicando nele, algumas opções surgirão. Clique em New repository, ele lhe encaminhará para uma página em que você definirá nome e outras opções. É bem intuitivo. Após criar, aparecerá na página um pequeno tutorial explicando como sincronizar seu repositório local com este hospedado no Github. Basta segui-lo. Apenas adianto que as poucas diferenças estão no comando **git remote add.** Com o incremento das Branchs, fica um pouco mais complexo. Mas isso é papo para outro tutorial. 
 
 ### Branchs e Merges
 
