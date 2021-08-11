@@ -1,6 +1,3 @@
-<img src="https://hermes.digitalinnovation.one/articles/cover/effe8a64-c52a-4983-aedb-91b5e432027f.png" alt="image-20210810031215647" style="zoom:25%;" />
-
-
 <h1>Aprendendo Git</h1>
 
 O Git é um sistema de controle de versões distribuído, gratuito e código aberto, projetado para trabalhar desde projetos pequenos a grandes. Por ser distribuído, quer dizer que não existe um repositório central oculto que controla todo o código. Em cada colaborador, vai estar salvo o código e seu histórico de versões. Se trata de uma ferramenta que entrega velocidade e eficiência — por isso é unanimidade no que se propõe. Sua mágica é facilitar o trabalho em equipe, você e sua equipe terá total controle sobre o que cada um implementa nas linhas de um projeto; ou seja, criando "branchs", tipo de ramificações do código em que cada membro exerce sua parte e em pontos cruciais se faz um "merge", ou seja, mescla essas ramificações em um só código.
