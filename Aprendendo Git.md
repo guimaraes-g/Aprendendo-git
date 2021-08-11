@@ -1,4 +1,4 @@
-<img src="C:\Users\srgug\AppData\Roaming\Typora\typora-user-images\image-20210810031215647.png" alt="image-20210810031215647" style="zoom:25%;" />
+<img src="https://hermes.digitalinnovation.one/articles/cover/effe8a64-c52a-4983-aedb-91b5e432027f.png" alt="image-20210810031215647" style="zoom:25%;" />
 
 
 <h1>Aprendendo Git</h1>
